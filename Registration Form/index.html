@@ -11,15 +11,15 @@
     <p>Please fill out this form with the required information</p>
     <form action="https://register-demo.freecodecamp.org">
         <fieldset>
-            <label> Enter your First Name: <input type="text" name="first-name" required/></label>
-            <label> Enter your Last Name: <input type="text" name="last-name" required/></label>
-            <label> Enter your Email: <input type="email" name="email" required/></label>
-            <label> Create a password: <input type="password" name="password" required/></label>
-            <label> Confirm password: <input type="password" name="password" required/></label>
+            <label> Enter your First Name: <input type="text" name="first-name" required /></label>
+            <label> Enter your Last Name: <input type="text" name="last-name" required /></label>
+            <label> Enter your Email: <input type="email" name="email" required /></label>
+            <label> Create a password: <input type="password" name="password" required /></label>
+            <label> Confirm password: <input type="password" name="password" required /></label>
         </fieldset>
         <fieldset>
-            <label> <input type="radio" name="account-type" class="inline">Personal Account</label>
-            <label> <input type="radio" name="account-type" class="inline">Business Account</label>
+            <label> <input type="radio" name="account-type" class="inline" />Personal Account</label>
+            <label> <input type="radio" name="account-type" class="inline" />Business Account</label>
             <label> 
                 <input type="checkbox" name="terms" class="inline" required /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions </a> 
             </label>
@@ -28,17 +28,18 @@
         <label> Input your age (years): <input type="number" name="age" min="13" max="120" /></label>
         <label> How did you hear about Us?
             <select name="referrer">
-                <option value="">(select one)</option>
-                <option value="">(select one)</option>
-                <option value="">(select one)</option>
-                <option value="">(select one)</option>
-                <option value="">(select one)</option>
+                <option value="">(Select one)</option>
+                <option value="">FreeCodeCamp News</option>
+                <option value="">FreeCodeCamp Youtube Channel</option>
+                <option value="">FreeCodeCamp Forum</option>
+                <option value="">Others</option>
         <fieldset>
-
+        </label>
+        <label>Provide a bio:
+            <textarea name="bio" row="3" cols="30" placeholder="I like coding on the beach..."></textarea>
+        </label>
         </fieldset>
-
+        <input type="submit" value="submit" />
     </form>
-
 </body>
-
 </html>
