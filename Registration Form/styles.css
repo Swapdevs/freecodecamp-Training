@@ -26,15 +26,15 @@ fieldset{
 fieldset:last-of-type{
     border-bottom: none;
 }
-label{
+label {
     display: block;
-    margin: 0.5rem;
+    margin: 0.5rem 0;
 }
 input,
 textarea,
-select{
+select {
     margin: 10px 0 0 0;
-    width: 100px;
+    width: 100%;
     min-height: 2em;
 }
 
